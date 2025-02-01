@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name"><i><span class="roshith">R</span>OSHITH M</i></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills-new">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-me">
+                <img src="myimage.jpg" class="image">
+                <h1><i> Hi I'm <span class="roshith">R</span>oshith M</i> </h1>
+                <p class="par">Currently, I’m focused on learning full-stack <br>development, continuously improving my skills to achieve my goals.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/RoshithBalachandran"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/roshith-m-balachandran-7810a7336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_ro_sh_it_h_/"><i class="fa-brands fa-instagram profile"></i></a>
+                    <a href="https://www.facebook.com/roshith.roshi.338"><i class="fa-brands fa-facebook"></i></a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---- about section----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="abutme.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="name"><i><span class="roshith">A</span>bout Me</i></h1>
+                    <p>My name is Roshith, and I am from Kannur. I have an ITI qualification and three years of
+                        experience in the mechanical field. Currently, I am transitioning into the tech industry by
+                        studying full-stack development. I have already gained knowledge in C and Java and am eager to
+                        expand my skills further in web development. My goal is to build a successful career in software
+                        development by continuously learning and improving my technical expertise.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('hobby')">Hobby</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devolopment</span><br> Web Develo</li>
+                            <li><span>mechanical</span><br> Service</li>
+                            <li><span>GR Technition</span><br> GR Technician</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>starting in 2025</span><br> Bridgeon Solution</li>
+                            <li><span>2020 - 2023</span><br> Signature HONDA Kannur</li>
+                            <li><span>2023 - 2024</span><br>Peninsular HONDA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>starting in 2025</span><br> Bridgeon Solution</li>
+                            <li><span>2016 - 2018</span><br>Govt ITI Kannur</li>
+                            <li><span>2014</span><br>Kuthuparamba Higher Secondary School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobby">
+                        <ul>
+                            <li><span>Travelling</span><br>It’s my passion for making good memories</li>
+                            <li><span>FootBall</span><br> Kerala Blaster</li>
+                            <li><span>Riding</span><br>Solo rider</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-------Skills------->
+    <div id="skills-new">
+        <div class="container">
+            <h1 class="name"><i><span class="roshith">S</span>kills</i></h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code icons"></i>
+                    <h2>Web Develop</h2>
+                    <p>Frontend Development <br>
+                        Basic Web Development <br>
+                        Website Maintenance </p>
+                       
+                </div>
+                <div >
+                    <i class="fa-solid fa-car-battery icons"></i>
+                    <h2>Mechanical</h2>
+                    <p>Technical Support<br>
+                        Basic CAD/Design Support<br>
+                        Mechanical Consultation</p>
+                        
+                </div>
+                <div >
+                    <div>
+                        <i class="fa-solid fa-headset icons"></i>
+                        <h2>Tech Support </h2>
+                         <p>Web Guidance <br>
+                        Mechanical Advice <br>
+                        Software & Tools</p>
+                       
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------project-------->
+    <div id="project">
+        <div class="container">
+            <h1 class="name"><i><span class="roshith">My</span>Project</i></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="navbarw3school.png">
+                    <div class="layer">
+                        <h3>Nav Bar Creation</h3>
+                        <p>A W3Schools navigation bar is a simple and responsive way to create menus using the W3.CSS framework. It provides built-in styles that make designing a navigation bar easier without writing extensive CSS.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="easemytrip.png">
+                    <div class="layer">
+                    <h3>EaseMy Trip</h3>
+                    
+                    <p>This project involved creating a simple EaseMyTrip website using HTML and CSS, focusing on a clean, responsive layout to showcase travel booking services</p>
+                    
+                </div>
+                </div>
+                <div class="work">
+                    <img src="myportfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>To create a simple portfolio using HTML, CSS, and JavaScript, structure it with an About Me section, a Projects showcase, and a Contact form. Use HTML for content, CSS for styling, and JavaScript for any interactivity</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-------------------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="rows">
+                <div class="contact-left">
+                    <h1 class="name"><i><span class="roshith">C</span>ontact Me</i></h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>roshithm9745@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile"></i>8590897750</p>
+                  
+                </div>
+                <div class="contact-Right"> 
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" requilred>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                       <textarea name="message" row="6" placeholder="Your message"></textarea>
+                       <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i>Thank you for visiting My Web page</i></p>
+        </div>
+    </div>
+   
+</body>
+</html>
+<script>
+    function opentab(tabname) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxE7G9J1TU36tPZuUtARhkVWhbSvF7iltMw_TfbMEajCIkizthivlDx6AQyFofrLeMfMg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
